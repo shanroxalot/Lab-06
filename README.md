@@ -14,9 +14,9 @@ Date: ____________
 
 1. Write a program in C to read the *Listings.csv* file.
 
-2. Declare a function, sortByHostName, that will sort the data based on hostname.
+2. Declare a function, sortByHostName, that should sort the data based on hostname.
  
-3. Declare a function, sortByPrice, that will sort the data based on price.
+3. Declare a function, sortByPrice, that should sort the data based on price.
 
 4. After sorting, sortByPrice and sortByHostName should write the sorted array to a file.
 
@@ -42,4 +42,4 @@ Date: ____________
 
 9. Use the *fopen()* to open a file in write mode.
 
-10. Use the *fputs()* function or the *fprintf()* to write the sorted structure array to a file.
+10. Use the *fputs()* function or the *fprintf()* to write the sorted array to a file.
