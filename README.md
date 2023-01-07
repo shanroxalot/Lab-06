@@ -12,23 +12,33 @@ Date: ____________
 
 ## Assignment:
 
-Write a program in C to read the input file *listings.csv* and write two functions, one that will sort the data based on hostname, one on price.
+1. Write a program in C to read the *Listings.csv* file.
 
-1. Declare a struct called 'Listing' with contains all the attributes found in *listings.csv*.
+2. Declare a function, sortByHostName, that will sort the data based on hostname.
+ 
+3. Declare a function, sortByPrice, that will sort the data based on price.
 
-2. Define a function that will take a line of the CSV file and return a 'Listing' struct with corresponding attribute values.
+4. After sorting, sortByPrice and sortByHostName should write the sorted array to a file.
+
+
+
+**General Approach**
+
+1. Declare a struct called 'Listing' with contains all the attributes found in *'Listings.csv'*.
+
+2. Define a function that will take one line of the CSV file and return a 'Listing' struct with corresponding attribute values.
 
 3. Declare an array of the 'Listing' structs.
 
-4. Open the *listings.csv* file with the *fopen()* function.
+4. Open the *'Listings.csv'* file with the *fopen()* function in read-mode.
 
-5. Loop through each line of the *listings.csv* file. Feel free to use either the *fgets()* function or the *getline()* function.
+5. Loop through each line of the *'Listings.csv'* file. Feel free to use either the *fgets()* function or the *getline()* function.
 
-6. For each line, call the function you defined.
+6. For each line, call the function you previously defined.
 
 7. Store the result in array of 'Listing' structs.
 
-8. Use the qsort() function to sort the array.
+8. In sortByHostName and sortByPrice, use the qsort() function to sort the array.
 
 9. Use the *fopen()* to open a file in write mode.
 
