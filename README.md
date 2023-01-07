@@ -12,7 +12,11 @@ Date: ____________
 
 ## Assignment:
 
-Write a program in C to read the input file *listings.csv* and write two functions, one that will sort the data based on hostname, one on price.
+Write a program in C to read the *listings.csv* file.
+
+Write two functions, one function, sortByHostName, that will sort the data based on hostname and one function, sortByPrice, that will sort on price.
+
+**General Approach**
 
 1. Declare a struct called 'Listing' with contains all the attributes found in *listings.csv*.
 
