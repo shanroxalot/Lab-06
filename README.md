@@ -12,7 +12,7 @@ Date: ____________
 
 ## Assignment:
 
-1. Write a program in C to read the *listings.csv* file.
+1. Write a program in C to read the *Listings.csv* file.
 
 2. Declare a function, sortByHostName, that will sort the data based on hostname.
  
@@ -20,17 +20,19 @@ Date: ____________
 
 4. After sorting, sortByPrice and sortByHostName should write the sorted array to a file.
 
+
+
 **General Approach**
 
 1. Declare a struct called 'Listing' with contains all the attributes found in *listings.csv*.
 
-2. Define a function that will take a line of the CSV file and return a 'Listing' struct with corresponding attribute values.
+2. Define a function that will take one line of the CSV file and return a 'Listing' struct with corresponding attribute values.
 
 3. Declare an array of the 'Listing' structs.
 
-4. Open the *listings.csv* file with the *fopen()* function in read-mode.
+4. Open the *Listings.csv* file with the *fopen()* function in read-mode.
 
-5. Loop through each line of the *listings.csv* file. Feel free to use either the *fgets()* function or the *getline()* function.
+5. Loop through each line of the *Listings.csv* file. Feel free to use either the *fgets()* function or the *getline()* function.
 
 6. For each line, call the function you previously defined.
 
