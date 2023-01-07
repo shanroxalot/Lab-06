@@ -24,15 +24,15 @@ Date: ____________
 
 **General Approach**
 
-1. Declare a struct called 'Listing' with contains all the attributes found in *listings.csv*.
+1. Declare a struct called 'Listing' with contains all the attributes found in *'Listings.csv'*.
 
 2. Define a function that will take one line of the CSV file and return a 'Listing' struct with corresponding attribute values.
 
 3. Declare an array of the 'Listing' structs.
 
-4. Open the *Listings.csv* file with the *fopen()* function in read-mode.
+4. Open the *'Listings.csv'* file with the *fopen()* function in read-mode.
 
-5. Loop through each line of the *Listings.csv* file. Feel free to use either the *fgets()* function or the *getline()* function.
+5. Loop through each line of the *'Listings.csv'* file. Feel free to use either the *fgets()* function or the *getline()* function.
 
 6. For each line, call the function you previously defined.
 
