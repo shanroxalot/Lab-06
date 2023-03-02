@@ -1,14 +1,14 @@
 # Lab-06: Standard Input/Output Functions and Standard Input/Output Streams
 
-## Name: 
+## Name: Shahaan Farrukh
 
 ## Honor Code:
 
-I, _______, declare that I have completed this assignment completely and entirely on my own, without any unathorized consultation from others or unathorized access to online websites. I have read the UAB Academic Honor Code and understand that any breach of the UAB Academic Honor Code may result in severe penalties.
+I, Shahaan Farrukh, declare that I have completed this assignment completely and entirely on my own, without any unathorized consultation from others or unathorized access to online websites. I have read the UAB Academic Honor Code and understand that any breach of the UAB Academic Honor Code may result in severe penalties.
 
-Student Signature/Initials: ____________
+Student Signature/Initials: SF
 
-Date: ____________
+Date: 2/27/2023
 
 ## Assignment:
 
